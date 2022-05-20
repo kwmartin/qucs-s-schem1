@@ -37,7 +37,7 @@
 
 /*!
  * \brief AbstractSpiceKernel::AbstractSpiceKernel class constructor
- * \param sch_ Schematic that schould be simualted with Spice-comaptibele
+ * \param sch_ Schematic that schould be simulated with Spice-comaptibele
  *        simulator
  * \param parent Parent object
  */
@@ -139,7 +139,7 @@ bool AbstractSpiceKernel::checkGround()
 /*!
  * \brief AbstractSpiceKernel::startNetlist Outputs .PARAM , .GLOABAL_PARAM,
  *        and .OPTIONS sections to netlist. These sections are placed on schematic
- *        directly or converted form Equation components. Then outputs common
+ *        directly or converted from Equation components. Then outputs common
  *        components to netlist.
  * \param stream QTextStream that associated with spice netlist file
  * \param xyce Default is false. Should be set in true if netlist is
