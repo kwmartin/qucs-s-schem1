@@ -37,7 +37,7 @@
 
 /*!
  * \brief Ngspice::Ngspice Class constructor
- * \param sch_ Schematic that need to be simualted with Ngspice.
+ * \param sch_ Schematic that need to be simulated with Ngspice.
  * \param parent Parent object
  */
 Ngspice::Ngspice(Schematic *sch_, QObject *parent) :

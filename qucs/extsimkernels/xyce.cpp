@@ -28,7 +28,7 @@
 
 /*!
  * \brief Xyce::Xyce Class constructor
- * \param sch_ Schematic that need to be simualted with Ngspice.
+ * \param sch_ Schematic that need to be simulated with Ngspice.
  * \param parent Parent object
  */
 Xyce::Xyce(Schematic *sch_, QObject *parent) :

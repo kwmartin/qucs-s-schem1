@@ -29,6 +29,15 @@ define pqstd
   printf "\"\n"
 end
 
+define b0
+  break main.c:$arg0
+end
+document b0
+  break main.c
+end
+
+set listsize 20
+
 alias to=until
 b main
 run
