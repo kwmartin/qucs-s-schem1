@@ -1801,7 +1801,7 @@ bool Schematic::createSubNetlist(QTextStream *stream, int& countInit,
       AbstractSpiceKernel *kern = new AbstractSpiceKernel(this);
       QStringList err_lst;
       if (!kern->checkSchematic(err_lst)) {
-          QString s = QString("Subcircuit %1 conatins SPICE-incompatible components.\n"
+          QString s = QString("Subcircuit %1 contains SPICE-incompatible components.\n"
                               "Check these components: %2 \n")
                   .arg(this->DocName).arg(err_lst.join("; "));
           ErrText->insertPlainText(s);

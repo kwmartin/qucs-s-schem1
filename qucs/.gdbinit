@@ -28,3 +28,7 @@ define pqstd
   end
   printf "\"\n"
 end
+
+alias to=until
+b main
+run
